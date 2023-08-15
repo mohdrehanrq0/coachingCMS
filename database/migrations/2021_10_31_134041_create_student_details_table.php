@@ -31,6 +31,7 @@ class CreateStudentDetailsTable extends Migration
             $table->string('other_percentage');
             $table->string('course');
             $table->integer('status');
+            $table->integer('is_certified');
             $table->timestamps();
         });
     }
